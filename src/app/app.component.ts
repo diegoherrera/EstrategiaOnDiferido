@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Actor } from './Entidades/Actor';
+
 
 @Component({
   selector: 'app-root',
@@ -12,6 +12,6 @@ export class AppComponent {
   
 
   constructor() {
-    
+    console.log('paso pro el contructor AppComponent');
   }
 }
